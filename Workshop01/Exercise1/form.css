@@ -1,0 +1,79 @@
+body {
+  margin-left: 50px;
+  margin-top: 50px;
+  font-family: sans-serif;
+  width: 800px;
+}
+
+h1 {
+  color: #147304;
+  font-size: 36px;
+}
+
+h2 {
+  color: #147304;
+  font-size: 32px;
+}
+
+p {
+  font-size: 24px;
+}
+
+.form-info label {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.check_container,
+.receive-announcements,
+.contact-selection label {
+  font-size: 24px;
+}
+
+.select {
+  font-size: 24px;
+}
+
+.check-box {
+  padding-top: 8px;
+  padding-bottom: 24px;
+}
+
+.check_container input,
+.check-box input {
+  transform: scale(2);
+  margin-left: 16px;
+  margin-right: 8px;
+  align-items: center;
+}
+
+.contact-selection {
+  margin-bottom: 36px;
+}
+
+.button {
+  font-size: 24px;
+  width: 100px;
+  height: auto;
+  background-color: #e8e8e8;
+  color: #000000;
+  border-color: #000000;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-group input {
+  font-size: 24px;
+  width: 60%;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.form-group label {
+  width: 200px;
+  margin-right: 12px;
+}
