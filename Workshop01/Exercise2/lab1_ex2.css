@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #fff;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 100%;
+  background-color: #fff8e7;
+  color: #4a4a4a;
+  line-height: 1.4;
+  border: 4px solid #b60000;
+  width: 1600px;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  background: linear-gradient(30deg, #ffe5c6, #ffffff);
+  padding: 1.5em 0 2em 0;
+  border-bottom: 3px solid #9b5b5b;
+}
+
+header h2 {
+  font-size: 200%;
+  padding: 0.1em 0 0.01em 0;
+  color: #b60000;
+  text-indent: 30px;
+  font-weight: bold;
+}
+
+header h3 {
+  color: #000000;
+  font-size: 150%;
+  font-style: italic;
+  text-indent: 30px;
+  font-weight: bold;
+}
+
+.shadowtext {
+  background-color: transparent;
+  text-shadow: 1.5px 1.5px 1.5px #97373c;
+}
+
+header img {
+  margin-left: 10px;
+  float: left;
+  width: 110px;
+  height: 110px;
+}
+
+.navbar {
+  background-color: #a1484e;
+  text-align: center;
+  padding: 8px 0 8px 0;
+}
+
+.navbar ul {
+  padding: 15px;
+  list-style-type: none;
+}
+
+.navbar ul li {
+  display: inline;
+  margin: 0 60px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.navbar ul li a:hover {
+  color: rgb(255, 225, 55);
+  font-weight: bold;
+}
+
+/* main */
+main {
+  display: flex;
+  padding: 10px 40px 10px 40px;
+}
+.left-content {
+  width: 30%;
+}
+
+.right-content {
+  width: 70%;
+}
+.speakers {
+  display: block;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.speakers a {
+  color: #2a2dbf;
+  font-size: 24px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.speakers img {
+  display: flex;
+  width: 120px;
+  height: 120px;
+}
+
+.left-content h2,
+.right-content h2 {
+  font-size: 26px;
+  color: #911326;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.left-content h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.mission blockquote {
+  font-style: italic;
+  margin: 10px 0;
+  padding: 10px;
+  color: #000000;
+  font-size: 22px;
+}
+
+.right-content p,
+.right-content li {
+  font-size: 22px;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.speaker-of-month h1 {
+  font-size: 30px;
+  font-weight: bold;
+  border-top: 3px solid #ff0313;
+  padding-top: 8px;
+}
+
+.most-speaker {
+  display: flex;
+}
+
+.most-speaker a {
+  text-decoration: none;
+  color: #0c10e8;
+  text-decoration: underline;
+  margin: 0 4px 0 4px;
+}
+
+.speaker-of-month .most-speaker .most-speakers {
+  width: 50%;
+}
+
+.speaker-of-month .most-speaker .img-most-speaker {
+  width: 50%;
+}
+
+.img-most-speaker {
+  margin-top: auto;
+}
+
+.fossil-img {
+  width: 400px;
+  height: 300px;
+}
+
+.tickets {
+  margin-top: 12px;
+}
+
+.tickets h2 {
+  border-top: 3px solid #ff0313;
+  padding-top: 8px;
+}
+
+.tickets ul {
+  list-style-type: circle;
+  margin-left: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #911326;
+  border-top: 3px solid #b60000;
+}
+
+footer p {
+  color: #fff;
+  font-size: 18px;
+}
